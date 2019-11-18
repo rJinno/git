@@ -1,3 +1,7 @@
+body{
+    background-color: cornsilk;
+}
+
 .left{
     width: 30%;
     height: 500px;
@@ -11,4 +15,29 @@
     float: right;
     border: solid 5px blue;
     border-radius: 10px;
+}
+
+.left ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left ul li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.left li a{
+    display: block;
+    border-left: 8px solid #c97556;
+    background-color: #474655;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: cornsilk;
+    /* width: 100%; */
+    margin: 1px 0px;
+    text-align: left;
+
 }
