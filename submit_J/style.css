@@ -41,3 +41,26 @@ body{
     text-align: left;
 
 }
+
+.right table{
+    width: 100%;
+    text-align: center;
+    /* margin: 5px; */
+}
+
+.right table th{
+    padding: 20px;
+    background-color: rgb(135, 69, 69);
+}
+.right table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.right table tbody tr:nth-child(even){
+    background-color: skyblue;
+}
+.right table tbody tr:nth-child(odd){
+    background-color: slateblue;
+}
